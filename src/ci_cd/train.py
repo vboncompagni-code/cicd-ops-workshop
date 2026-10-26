@@ -7,7 +7,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.model_selection import train_test_split
 
-N_ESTIMATORS = 1 and MAX_DEPTH = 1
+N_ESTIMATORS = 1
+MAX_DEPTH = 1
 
 MODEL_DIR = pathlib.Path("model")
 
